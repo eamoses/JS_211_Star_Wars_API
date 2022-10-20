@@ -1,0 +1,28 @@
+{
+  "name": "js_211_star_wars_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "htmllint {*.html,./**/*.html} && stylelint ./**/*.css && eslint .",
+    "test": "mocha --no-timeouts",
+    "start": "cd . && http-server -c-1",
+    "javascripting": "javascripting",
+    "functional-javascript": "functional-javascript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eamoses/JS_211_Star_Wars_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eamoses/JS_211_Star_Wars_API/issues"
+  },
+  "homepage": "https://github.com/eamoses/JS_211_Star_Wars_API#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.1.0"
+  }
+}
